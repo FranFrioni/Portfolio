@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Frioni</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/observers.js"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarid" data-bs-offset="250" tabindex="0">
+    <header>
+        <nav id="navbarid" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/icon.png" alt="" width="40">
+                </a>
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#sobremi">Sobre Mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#conocimientos">Conocimientos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#proyectospersonales">Proyectos Personales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="profile" class="container-fluid shadow-lg">
+        <div class="row py-5 mt-5 avatar">
+            <img src="img/perfil.png" alt="Foto de Perfil." style="width: 300px;" class="mx-auto mt-5 mb-1 shadow-lg rounded-circle">
+            <h1 class="text-center display-1 mt-2 fw-bold titles">Francesco Frioni</h1>
+            <h2 class="text-center display-4 mb-5 fst-italic titles">Estudiante avanzado de Analista Programador</h2>
+        </div>
+    </div>
+    <div class="bg-light">
+    <div id="sobremi" class="text-center pt-5 arrow">
+        <img src="img/arrow.png" width="75px" alt="Flecha hacia abajo">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center pb-5 align-items-center slideleft border-bottom border-dark border-2">
+            <h3 class="my-5 display-4 text-center titles">Un poco sobre mí</h1>
+            <div class="col-12 col-lg-3">
+                <div class="row text-center">
+                    <img src="img/Binary code-amico.png" style="width: 350px;" alt="Dibujo de persona programando" class="text-center pb-5">
+                </div>
+            </div>
+            <div class="col-11 col-lg-9">
+                <div  class="row">
+                    <p class="display-1 fs-3 " style="text-align: justify;">
+                        <!-- ESCRIBIR DESCRIPCION ACA -->
+                        Soy un joven de 22 años que reside en Uruguay, y me encuentro cerca de obtener el titulo de Analista Programador. Desde pequeño tengo estrecho contacto con las computadoras, especialmente los videojuegos, los cuales me han ayudado a aprender mucho sobre tecnología. Hace pocos años comencé a ahondar en el mundo de la programación y descubrí que es algo que me apasiona. Por este motivo, es mi sueño trabajar en el área de la programación para adquirir más conocimientos y poder utilizarlos en el desarrollo de videojuegos.
+                    </p>
+                    <div class="row justify-content-center d-none">
+                        <a href="img/curriculum.pdf" class="btn btn-dark col-5 mt-4" target="_blank"><p class="display-1 fs-5">Curriculum Vitae</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="conocimientos" class="row py-5 align-items-center justify-content-center slideright border-bottom border-dark border-2">
+            <h3 class="my-5 display-4 text-center titles">Conocimientos</h1>
+            <div class="col-11 col-lg-8 pb-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <p class="display-1 fs-2 mb-0">Educación</p>
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                        <div class="accordion-body">
+                            <h1 class="display-1 fs-3 my-2">Secundaria y Carreras</h1>
+                            <ul>
+                                <li class="display-1 fs-4 ms-5 my-4">Bachillerato Físico Matemático (IPOLL 2016)</li>
+                                <li class="display-1 fs-4 ms-5 my-4">Ciclo Inicial Optativo del Área Social Orientación Psicología (Udelar 2017)</li>
+                                <li class="display-1 fs-4 ms-5 my-4">Analista Programador (CTC / CLAEH 2021)</li>
+                            </ul>
+                            <h1 class="display-1 fs-3 my-2">Materias Aprobadas en Analista Programador</h1>
+                            <ul>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <li class="display-1 fs-5 ms-5 my-4">Programacion 1</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Pensamiento computacional</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Taller de usabilidad y accesibilidad</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Programacion 2</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Base de datos 1</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Taller de desarrollo front-end</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Programacion 3</li>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <li class="display-1 fs-5 ms-5 my-4">Base de datos 2</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Desarrollo para dispositivos moviles</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Taller de seguridad</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Diseño y desarrollo de aplicaciones</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Ingenieria de software</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Algoritmos y estructuras de datos</li>
+                                        <li class="display-1 fs-5 ms-5 my-4">Taller de GeneXus</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="display-1 fs-2 mb-0">Aptitudes Personales</p>
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                        <div class="accordion-body">
+                            <ul>
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-lg-4">
+                                        <li class="display-1 fs-5 my-4">Dedicado</li>
+                                        <li class="display-1 fs-5 my-4">Paciente</li>
+                                        <li class="display-1 fs-5 my-4">Perseverante</li>
+                                    </div>
+                                    <div class="col-6 col-lg-4">
+                                        <li class="display-1 fs-5 my-4">Autodidacta</li>
+                                        <li class="display-1 fs-5 my-4">Curioso</li>
+                                        <li class="display-1 fs-5 my-4">Apasionado</li>
+                                    </div>
+                                    <div class="col-6 col-lg-4">
+                                        <li class="display-1 fs-5 my-4">Versátil</li>
+                                        <li class="display-1 fs-5 my-4">Respetuoso</li>
+                                        <li class="display-1 fs-5 my-4">Honesto</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="display-1 fs-2 mb-0">Herramientas y Tecnologías</p>
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                        <div class="accordion-body">
+                            <div class="row">    
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/js.png" width="75px" alt="JavaScript"><h3 class="display-1 fs-5 text-center mt-2">Javascript</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/html.png" width="75px" alt="HTML"><h3 class="display-1 fs-5 text-center mt-2">HTML5</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/css.png" width="75px" alt="CSS"><h3 class="display-1 fs-5 text-center mt-2">CSS3</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/react.png" width="75px" alt="React"><h3 class="display-1 fs-5 text-center mt-2">React</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/csharp.png" width="75px" alt="C#"><h3 class="display-1 fs-5 text-center mt-2">C#</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/ionic.png" width="75px" alt="Ionic"><h3 class="display-1 fs-5 text-center mt-2">Ionic</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/java.png" width="75px" alt="Java"><h3 class="display-1 fs-5 text-center mt-2">Java</h3></div>
+                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/sql.png" width="75px" alt="SQL"><h3 class="display-1 fs-5 text-center mt-2">SQL</h3></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>    
+            </div>
+            <div class="col-12 col-lg-3">
+                <img src="img/Code typing-amico.png" width="350px" alt="Dibujo de persona programando" class="text-center py-1">
+            </div>
+        </div>
+        <div id="proyectospersonales"class="row justify-content-center py-5 align-items-center slideleft border-bottom border-dark border-2">
+            <h3 class="my-5 display-4 text-center titles">Proyectos personales</h3>
+            <div class="col-12 col-lg-5">
+                <img class="shadow" src="img/proyectos/Masterchef.png" alt="Pagina Masterchef" width="100%">
+                <h4 class="display-1 fs-3 py-4 text-center">Pagina Masterchef (HTML/CSS)</h4>
+            </div>
+            <div class="col-12 col-lg-5">
+                <img class="shadow" src="img/proyectos/Buscaminas1.png" alt="Aplicación Buscaminas 1" width="49%">
+                <img class="shadow" src="img/proyectos/Buscaminas2.png" alt="Aplicación Buscaminas 2" width="49%">
+                <h4 class="display-1 fs-3 py-4 text-center">Aplicación Buscaminas (Java)</h4>
+            </div>
+            <div class="col-12 col-lg-5">
+                <img src="img/proyectos/Libreria2.png" alt="Aplicación Libreria 2" width="31%">
+                <img src="img/proyectos/Libreria1.png" alt="Aplicación Libreria 1" width="35%">
+                <img src="img/proyectos/Libreria3.png" alt="Aplicación Libreria 3" width="31%">
+                <h4 class="display-1 fs-3 py-4 text-center">Aplicación Librería (React/Ionic)</h4>
+                <div class="row justify-content-center">
+                    <a role="button" href="img/proyectos/Guia de Usuario.pdf" class="btn btn-dark col-4 mx-2" target="_blank"><p class="display-1 fs-5">Guia de Usuario</p></a>
+                    <a role="button" href="img/proyectos/Evidencia de Testing.pdf" class="btn btn-dark col-4 mx-2" target="_blank"><p class="display-1 fs-5">Evidencia de Testing</p></a>
+                </div>
+            </div>
+            <p class="text-center mt-5 display-1 fs-4">¡Todos los códigos se pueden encontrar en los repositorios de GitHub!</p>
+        </div>
+        <div id="contacto" class="row mb-5 py-5 slideright">
+            <h3 class="my-5 display-4 text-center">Contacto</h1>
+            <div class="d-none d-xl-block"> 
+                <div class="row justify-content-center">
+                    <div class="col-3 mb-5">
+                        <img src="img/contacto/phone.png" width="50px" alt="Icono celular" class="float-start me-4">
+                        <p class="display-1 fs-2 text-start">+598 92 989 351</p>
+                    </div>
+                    <div class="col-5 mb-5">
+                        <img src="img/contacto/mail.png" width="50px" alt="Icono mail" class="float-start me-4">
+                        <p class="display-1 fs-2 text-start">francescofrioni99@gmail.com</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 mb-5">
+                        <img src="img/contacto/github.png" width="50px" alt="Icono Github" class="float-start me-4">
+                        <a class="display-1 fs-2 text-start text-muted" href="https://github.com/FranFrioni"><p>FranFrioni</p></a>
+                    </div>
+                    <div class="col-3 mb-5">
+                        <img src="img/contacto/brush.png" width="50px" alt="Icono pincel" class="float-start me-4">
+                        <a class="display-1 fs-2 text-start text-muted" href="https://storyset.com/web"><p>Ilustraciones</p></a>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 mb-5">
+                        <img src="img/contacto/linkedin.png" width="50px" alt="Icono Linkedin" class="float-start me-4">
+                        <a class="display-1 fs-2 text-start text-muted" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/"><p>Linkedin</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block d-xl-none">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center mb-4">
+                        <img src="img/contacto/phone.png" width="50px" alt="Icono celular" class="float-center mb-3">
+                        <p class="display-1 fs-3">+598 92 989 351</p>
+                    </div>
+                    <div class="col-12 text-center mb-4">
+                        <img src="img/contacto/mail.png" width="50px" alt="Icono mail" class="float-center mb-3">
+                        <p class="display-1 fs-3">francescofrioni99@gmail.com</p>
+                    </div>
+                    <div class="col-12 text-center mb-4">
+                        <img src="img/contacto/github.png" width="50px" alt="Icono Github" class="float-center mb-3">
+                        <a class="display-1 fs-3 d-block text-muted" href="https://github.com/FranFrioni">FranFrioni</a>
+                    </div>
+                    <div class="col-12 text-center mb-4">
+                        <img src="img/contacto/brush.png" width="50px" alt="Icono pincel" class="float-center mb-3">
+                        <a class="display-1 fs-3 d-block text-muted" href="https://storyset.com/web">Ilustraciones</a>
+                    </div>
+                    <div class="col-12 text-center mb-4">
+                        <img src="img/contacto/linkedin.png" width="50px" alt="Icono linkedin" class="float-center mb-3">
+                        <a class="display-1 fs-3 d-block text-muted" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4 bg-dark shadow-lg text-light">
+        <!-- Agregar idiomas -->
+    </footer>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
