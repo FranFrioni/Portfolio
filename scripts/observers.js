@@ -5,7 +5,7 @@ $(document).ready(function(e) {
     const arrows = document.querySelectorAll('.arrow');
 
     const appearOptions = {
-        rootMargin: "0px 0px -500px 0px"
+        rootMargin: "0px 0px -550px 0px"
     };
 
     const appearOnScroll = new IntersectionObserver(function(entries, appearOnSCroll) {
