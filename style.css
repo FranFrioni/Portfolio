@@ -33,21 +33,21 @@ body {
 
 .slideleft.visible {
     opacity: 1;
-    animation: slideinleft 2s ease-in-out;
+    animation: slideinleft 1s ease-in-out;
 }
 
 .slideright.visible {
     opacity: 1;
-    animation: slideinright 2s ease-in-out;
+    animation: slideinright 1s ease-in-out;
 }
 
 .slideleft {
     opacity: 0;
-    transition: opacity 1000ms ease-in;
+    transition: opacity 500ms ease-in;
 }
 .slideright {
     opacity: 0;
-    transition: opacity 1000ms ease-in;
+    transition: opacity 500ms ease-in;
 }
 @keyframes slideinleft {
     0% {
@@ -68,7 +68,7 @@ body {
 
 .titles {
     opacity: 0;
-    transition: opacity 1000ms ease-in;
+    transition: opacity 500ms ease-in;
 }
 .titles.visible{
     opacity: 1;
@@ -76,7 +76,7 @@ body {
 
 .arrow {
     opacity: 1;
-    transition: opacity 1000ms ease-in;
+    transition: opacity 500ms ease-in;
     animation: float 6s ease-in-out infinite;
 }
 .arrow.visible{
