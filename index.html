@@ -1,324 +1,376 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francesco Frioni</title>
-    <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="scripts/jquery-3.6.0.min.js"></script>
-    <script src="scripts/observers.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francesco Frioni</title>
+  <link rel="icon" href="source/img/index/icon.png">
+  <link rel="stylesheet" href="source/bootstrap5/bootstrap.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbarid" data-bs-offset="250" tabindex="0">
-    <header>
-        <nav id="navbarid" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="img/icon.png" alt="" width="40">
-                </a>
-              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#sobremi">Sobre Mí</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#conocimientos">Conocimientos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#proyectospersonales">Proyectos Personales</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active display-1 fs-6 me-3 fw-bold" aria-current="page" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <div id="profile" class="container-fluid shadow-lg">
-        <div class="row py-5 mt-5 avatar">
-            <img src="img/perfil.png" alt="Foto de Perfil." style="width: 300px;" class="mx-auto mt-5 mb-1 rounded-circle">
-            <h1 class="text-center display-1 mt-2 fw-bold titles">Francesco Frioni</h1>
-            <h2 class="text-center display-4 mb-5 fst-italic titles">Estudiante avanzado de Analista Programador</h2>
-        </div>
-    </div>
-    <div class="bg-light">
-    <div id="sobremi" class="text-center pt-5 arrow">
-        <a href="#sobremi">
-            <img src="img/arrow.png" width="75px" alt="Flecha hacia abajo">
-        </a>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center pb-5 align-items-center slideleft border-bottom border-dark border-2">
-            <h3 class="my-5 display-4 text-center titles">Un poco sobre mí</h1>
-            <div class="col-12 col-lg-3">
-                <div class="row text-center">
-                    <img src="img/Binary code-amico.png" style="width: 350px;" alt="Dibujo de persona programando" class="text-center pb-5">
-                </div>
-            </div>
-            <div class="col-11 col-lg-9">
-                <div  class="row">
-                    <p class="display-1 fs-3 " style="text-align: justify;">
-                        Soy un joven de 22 años que reside en Salto (Uruguay), y me encuentro cerca de obtener el titulo de Analista Programador. Desde pequeño tengo estrecho contacto con las computadoras, especialmente los videojuegos, los cuales me han ayudado a aprender mucho sobre tecnología. Hace pocos años comencé a ahondar en el mundo de la programación y descubrí que es algo que me apasiona. Por este motivo, es mi sueño trabajar en el área de la programación para adquirir más conocimientos y poder utilizarlos en mi día a día.
-                    </p>
-                    <div class="row justify-content-center">
-                        <a href="img/curriculum.pdf" class="btn btn-dark col-5 mt-4" target="_blank"><p class="display-1 fs-5 mb-0">Curriculum Vitae</p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="conocimientos" class="row py-5 align-items-center justify-content-center slideright border-bottom border-dark border-2">
-            <h3 class="my-5 display-4 text-center titles">Conocimientos</h1>
-            <div class="col-11 col-lg-8 pb-5">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <p class="display-1 fs-2 mb-0">Educación</p>
-                        </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
-                        <div class="accordion-body">
-                            <h1 class="display-1 fs-3 my-2">Secundaria, Carreras y Cursos</h1>
-                            <ul>
-                                <li class="display-1 fs-4 ms-5 my-4">Bachillerato Físico Matemático (IPOLL 2016)</li>
-                                <li class="display-1 fs-4 ms-5 my-4">Ciclo Inicial Optativo del Área Social Orientación Psicología (Udelar 2017)</li>
-                                <li class="display-1 fs-4 ms-5 my-4">Primera Fase de Jóvenes a Programar (Plan Ceibal 2020)</li>
-                                <li class="display-1 fs-4 ms-5 my-4">Analista Programador (CTC / CLAEH 2021)</li>
-                            </ul>
-                            <h1 class="display-1 fs-3 my-2">Materias Aprobadas en Analista Programador</h1>
-                            <ul>
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Programación 1</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Pensamiento computacional</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Taller de usabilidad y accesibilidad</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Programación 2</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Base de datos 1</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Taller de desarrollo front-end</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Programación 3</li>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Base de datos 2</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Desarrollo para dispositivos móviles</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Taller de seguridad (Por Aprobar)</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Diseño y desarrollo de aplicaciones</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Ingeniería de software</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Algoritmos y estructuras de datos</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Taller de GeneXus (Por Aprobar)</li>
-                                    </div>
-                                </div>
-                            </ul>
-                            <h1 class="display-1 fs-3 my-2">Materias Aprobadas en CIOAS</h1>
-                            <ul>
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Historia de la Psicología</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Neurobiología de la mente</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Fundamentos de la Psicología</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Psicología del desarrollo</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Procesos cognitivos</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Teorías Psicológicas</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Epistemología</li>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Metodos y herramientas orientadas a la extensión</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Herramientas para el trabajo intelectual</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Metodología general de la investigación</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Construcción del sujeto y del objeto en Psicología</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Psicología, Género y Derechos Humanos</li>
-                                    </div>
-                                </div>
-                            </ul>
-                            <h1 class="display-1 fs-3 my-2">Materias Aprobadas en JAP</h1>
-                            <ul>
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Pensamiento computacional</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Introducción a la programación</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Fundamentos de la programación</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Programación imperativa</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Programación orientada a objetos</li>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <li class="display-1 fs-5 ms-5 my-4">Integración y encuadre</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Proyecto ocupacional</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Organización y planificación</li>
-                                        <li class="display-1 fs-5 ms-5 my-4">Autogestión, Autorregulación, Determinación, Vocación y Autoevaluación</li>
-                                    </div>
-                                </div>
-                            </ul>
-                            <div class="row justify-content-center">
-                                <a href="img/jap.pdf" class="btn btn-dark col-2 mt-4" target="_blank"><p class="display-1 fs-6">Certificado JAP</p></a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <p class="display-1 fs-2 mb-0">Aptitudes Personales</p>
-                        </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
-                        <div class="accordion-body">
-                            <ul>
-                                <div class="row justify-content-center">
-                                    <div class="col-6 col-lg-4">
-                                        <li class="display-1 fs-5 my-4">Dedicado</li>
-                                        <li class="display-1 fs-5 my-4">Paciente</li>
-                                        <li class="display-1 fs-5 my-4">Perseverante</li>
-                                    </div>
-                                    <div class="col-6 col-lg-4">
-                                        <li class="display-1 fs-5 my-4">Autodidacta</li>
-                                        <li class="display-1 fs-5 my-4">Curioso</li>
-                                        <li class="display-1 fs-5 my-4">Apasionado</li>
-                                    </div>
-                                    <div class="col-6 col-lg-4">
-                                        <li class="display-1 fs-5 my-4">Versátil</li>
-                                        <li class="display-1 fs-5 my-4">Respetuoso</li>
-                                        <li class="display-1 fs-5 my-4">Honesto</li>
-                                    </div>
-                                </div>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <p class="display-1 fs-2 mb-0">Herramientas y Tecnologías</p>
-                        </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
-                        <div class="accordion-body">
-                            <div class="row">    
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/js.png" width="75px" alt="JavaScript"><h3 class="display-1 fs-5 text-center mt-2">Javascript</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/html.png" width="75px" alt="HTML"><h3 class="display-1 fs-5 text-center mt-2">HTML5</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/css.png" width="75px" alt="CSS"><h3 class="display-1 fs-5 text-center mt-2">CSS3</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/react.png" width="75px" alt="React"><h3 class="display-1 fs-5 text-center mt-2">React</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/csharp.png" width="75px" alt="C#"><h3 class="display-1 fs-5 text-center mt-2">C#</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/ionic.png" width="75px" alt="Ionic"><h3 class="display-1 fs-5 text-center mt-2">Ionic</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/java.png" width="75px" alt="Java"><h3 class="display-1 fs-5 text-center mt-2">Java</h3></div>
-                                <div class="col-6 col-lg-3 text-center my-4"><img src="img/conocimientos/sql.png" width="75px" alt="SQL"><h3 class="display-1 fs-5 text-center mt-2">SQL</h3></div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>    
-            </div>
-            <div class="col-12 col-lg-3">
-                <img src="img/Code typing-amico.png" width="350px" alt="Dibujo de persona programando" class="text-center py-1">
-            </div>
-        </div>
-        <div id="proyectospersonales"class="row justify-content-center py-5 align-items-center slideleft border-bottom border-dark border-2">
-            <h3 class="my-5 display-4 text-center titles">Proyectos personales</h3>
-            <div class="col-12 col-lg-5">
-                <img class="shadow" src="img/proyectos/Masterchef.png" alt="Pagina Masterchef" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página Masterchef</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página fue un proyecto final para el taller de usabilidad y accesibilidad. En el mismo observamos más a fondo las herramientas HTML, CSS y Bootstrap.</p>
-            </div>
-            <div class="col-12 col-lg-5">
-                <img class="shadow" src="img/proyectos/Buscaminas1.png" alt="Aplicación Buscaminas 1" width="49%">
-                <img class="shadow" src="img/proyectos/Buscaminas2.png" alt="Aplicación Buscaminas 2" width="49%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Aplicación Buscaminas</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Proyecto final de la materia Diseño y Desarrollo de Aplicaciones hecho en Java. En dicha materia aprendimos Java y, además, patrones y principios de diseño.</p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <img class="shadow" src="img/proyectos/todoList.png" alt="Página To-Do" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página To-Do</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página fue un proyecto propio. Se utiliza para tener una lista de tareas que cumplir a futuro. Hecha con HTML, CSS, JS y Bootstrap. <a href="https://todofrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <img class="shadow" src="img/proyectos/eyeron.png" alt="Página Eyeron" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página Eyeron</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página es un proyecto propio, el cual aún esta en desarrollo. Este juego se esta creando utilizando HTML, CSS, JS, Node, Express y NeDB. <a href="https://eyeron.herokuapp.com" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <img class="shadow" src="img/proyectos/expenseTracker.png" alt="Página Expense Tracker" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página Expense Tracker</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página fue un proyecto propio. Se utiliza para tener una lista de gastos hechos. Hecha con HTML, CSS, JS y Bootstrap. <a href="https://expensetrackerfrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <img class="shadow" src="img/proyectos/memoryGame.png" alt="Página Memory Game" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página Memory Game</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página fue un proyecto propio. Hecha para pasar un rato jugando al conocido Memory Game, se utiliza HTML, CSS, JS y Bootstrap. <a href="https://memorygamefrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
-            </div>
-            <div class="col-12 col-lg-4">
-                <img class="shadow" src="img/proyectos/calculator.png" alt="Página Calculator" width="100%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Página Calculadora</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Esta página fue un proyecto propio. Hecha para hacer usada como calculadora, se utiliza HTML, CSS, JS y Bootstrap. <a href="https://calculatorfrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
-            </div>
-            <div class="col-12 col-lg-5">
-                <img src="img/proyectos/Libreria2.png" alt="Aplicación Libreria 2" width="31%">
-                <img src="img/proyectos/Libreria1.png" alt="Aplicación Libreria 1" width="35%">
-                <img src="img/proyectos/Libreria3.png" alt="Aplicación Libreria 3" width="31%">
-                <h4 class="display-1 fs-3 pt-4 text-center">Aplicación Librería</h4>
-                <p class="display-1 fs-6 pb-4 text-center">Para la materia de Dispositivos Móviles realicé un proyecto final en React junto con Ionic, utilizando además JavaScript, HTML y CSS. Este proyecto se llevó a cabo con Android Studio para terminar siendo una aplicación para dispositivos Android.</p>
-                <div class="row justify-content-center">
-                    <a role="button" href="img/proyectos/Guia de Usuario.pdf" class="btn btn-dark col-4 mx-2" target="_blank"><p class="display-1 fs-6 mb-0">Guia de Usuario</p></a>
-                    <a role="button" href="img/proyectos/Evidencia de Testing.pdf" class="btn btn-dark col-4 mx-2" target="_blank"><p class="display-1 fs-6 mb-0">Evidencia de Testing</p></a>
-                </div>
-            </div>
-            <p class="text-center mt-5 display-1 fs-4">¡Todos los códigos, y los de otros proyectos, se pueden encontrar en los repositorios de GitHub!</p>
-        </div>
-        <div id="contacto" class="row mb-5 py-5 slideright">
-            <h3 class="my-5 display-4 text-center">Contacto</h1>
-            <div class="d-none d-xl-block"> 
-                <div class="row justify-content-center">
-                    <div class="col-4 mb-5">
-                        <img src="img/contacto/phone.png" width="50px" alt="Icono celular" class="float-start me-4">
-                        <p class="display-1 fs-2 text-start">+598 92 989 351</p>
-                    </div>
-                    <div class="col-6 mb-5">
-                        <img src="img/contacto/mail.png" width="50px" alt="Icono mail" class="float-start me-4">
-                        <p class="display-1 fs-2 text-start">francescofrioni99@gmail.com</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-3 mb-5">
-                        <img src="img/contacto/github.png" width="50px" alt="Icono Github" class="float-start me-4">
-                        <a class="display-1 fs-2 text-start text-muted" href="https://github.com/FranFrioni"><p>FranFrioni</p></a>
-                    </div>
-                    <div class="col-3 mb-5">
-                        <img src="img/contacto/linkedin.png" width="50px" alt="Icono Linkedin" class="float-start me-4">
-                        <a class="display-1 fs-2 text-start text-muted" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/"><p>Linkedin</p></a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-block d-xl-none">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center mb-4">
-                        <img src="img/contacto/phone.png" width="50px" alt="Icono celular" class="float-center mb-3">
-                        <p class="display-1 fs-3">+598 92 989 351</p>
-                    </div>
-                    <div class="col-12 text-center mb-4">
-                        <img src="img/contacto/mail.png" width="50px" alt="Icono mail" class="float-center mb-3">
-                        <p class="display-1 fs-3">francescofrioni99@gmail.com</p>
-                    </div>
-                    <div class="col-12 text-center mb-4">
-                        <img src="img/contacto/github.png" width="50px" alt="Icono Github" class="float-center mb-3">
-                        <a class="display-1 fs-3 d-block text-muted" href="https://github.com/FranFrioni">FranFrioni</a>
-                    </div>
-                    <div class="col-12 text-center mb-4">
-                        <img src="img/contacto/linkedin.png" width="50px" alt="Icono linkedin" class="float-center mb-3">
-                        <a class="display-1 fs-3 d-block text-muted" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/">Linkedin</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="py-4 bg-dark shadow-lg text-light">
-        <p class="display-1 fs-6 my-0 mx-3 p-0">Ilustraciones por <a class="display-1 fs-5 text-muted" href="https://storyset.com/web">StorySet</a></p>
-    </footer>
-    </div>
-    </div>
-    </div>
+<body data-bs-spy="scroll" data-bs-target="navbarid" data-bs-offset="300">
+  <header>
+		<nav id="navbarid" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a href="#" class="navbar-brand appear">
+					<img src="source/img/index/icon.png" alt="Icono Francesco Frioni" width="50px">
+				</a>
+				<button type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler ms-auto">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="navbarContent" class="collapse navbar-collapse">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+						<li class="nav-item mx-2 appear">
+							<a aria-current="page" href="#sobreMí" class="nav-link active">Sobre Mí</a>
+						</li>
+						<li class="nav-item mx-2 appear">
+							<a aria-current="page" href="#conocimientos" class="nav-link active">Conocimientos</a>
+						</li>
+						<li class="nav-item mx-2 appear">
+							<a aria-current="page" href="#proyectosPersonales" class="nav-link active">Proyectos Personales</a>
+						</li>
+						<li class="nav-item mx-2 appear">
+							<a aria-current="page" href="#contacto" class="nav-link active">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="container">
+
+		<!-- PERFIL -->
+			<div id="perfil" class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideleft">
+				<div class="d-block d-lg-none col-10 mt-3 align-self-center p-0 mb-3 slideleft">
+					<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
+				</div>
+				<div class="col-lg-8 align-self-center p-0 text-center text-lg-start slideleft">
+					<h1 class="display-1 mb-1 fw-bold">Francesco Frioni</h1>
+					<h2 class="display-6 fst-italic">Estudiante avanzado de Analista Programador</h2>
+				</div>
+				<div class="d-none d-lg-block col-xl-3 col-lg-4 align-self-center p-0 slideleft">
+					<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
+				</div>
+			</div>
+
+		<!-- SOBRE MÍ -->
+			<span id="sobreMí"></span>
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideright">
+				<h1 class="display-4 text-center fw-bold">Un poco sobre mí</h1>
+				<div class="col-12 col-md-3 align-self-center slideright">
+					<img src="source/img/ilustraciones/one.png" width="100%" alt="Dibujo de persona programando" class="float">
+				</div>
+				<div class="col-12 col-md-8 align-self-center slideright">
+					<p class="fs-4 my-5">
+						Soy un joven de 22 años que reside en Salto (Uruguay), y me encuentro cerca de obtener el titulo de Analista Programador. Desde pequeño tengo estrecho contacto con las computadoras, especialmente los videojuegos, los cuales me han ayudado a aprender mucho sobre tecnología. Hace pocos años comencé a ahondar en el mundo de la programación y descubrí que es algo que me apasiona. Por este motivo, es mi sueño trabajar en el área de la programación para adquirir más conocimientos y poder utilizarlos en mi día a día.
+					</p>
+					<div class="text-center my-3 slideright">
+						<a href="source/pdf/curriculum.pdf" target="_blank" class="btn btn-primary">Curriculum Vitae</a>
+					</div>
+				</div>
+			</div>
+
+		<!-- CONOCIMIENTOS -->
+			<span id="conocimientos"></span>
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideleft">
+				<h1 class="display-4 text-center fw-bold">Conocimientos</h1>
+				<div id="divAccordion" class="accordion col-12 col-md-8 my-5 align-self-center slideleft">
+					<div class="accordion-item">
+						<h2 id="headingOne" class="accordion-header">
+							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="accordion-button collapsed">
+								<p class="mb-0 fs-3">Educación</p>
+							</button>
+						</h2>
+						<div id="collapseOne" aria-labelledby="headingOne" class="accordion-collapse collapse">
+							<div class="accordion-body p-3">
+								<div class="py-4 border-bottom">
+									<h3 class="fs-4">Secundaria, Carreras y Cursos</h3>
+									<ul class="fs-5">
+										<li>Bachillerato Físico Matemático (IPOLL 2016)</li>
+										<li>Ciclo Inicial Optativo del Área Social Orientación Psicología (Udelar 2017)</li>
+										<li>Primera Fase de Jóvenes a Programar (Plan Ceibal 2020)</li>
+										<li>Analista Programador (CTC / CLAEH 2021)</li>
+									</ul>
+								</div>
+								<div class="py-4 border-bottom">
+									<h3 class="fs-4">Materias Aprobadas en AP</h3>
+									<ul class="row fs-5">
+										<div class="col-12 col-md-6">
+											<li>Programación 1</li>
+											<li>Pensamiento computacional</li>
+											<li>Taller de usabilidad y accesibilidad</li>
+											<li>Programación 2</li>
+											<li>Base de datos 1</li>
+											<li>Taller de desarrollo front-end</li>
+											<li>Programación 3</li>
+										</div>
+										<div class="col-12 col-md-6">
+											<li>Base de datos 2</li>
+											<li>Desarrollo para dispositivos móviles</li>
+											<li>Taller de seguridad (Por Aprobar)</li>
+											<li>Diseño y desarrollo de aplicaciones</li>
+											<li>Ingeniería de software</li>
+											<li>Algoritmos y estructuras de datos</li>
+											<li>Taller de GeneXus (Por Aprobar)</li>
+										</div>
+									</ul>
+									<div class="text-center py-3">
+										<a href="source/pdf/ctc.pdf" target="_blank" class="btn btn-primary">Notas</a>
+									</div>
+								</div>
+								<div class="py-4 border-bottom">
+									<h3 class="fs-4">Materias Aprobadas en CIOAS</h3>
+									<ul class="row fs-5">
+										<div class="col-12 col-md-6">
+											<li>Historia de la Psicología</li>
+											<li>Neurobiología de la mente</li>
+											<li>Psicología del desarrollo</li>
+											<li>Procesos cognitivos</li>
+											<li>Teorías Psicológicas</li>
+											<li>Epistemología</li>
+										</div>
+										<div class="col-12 col-md-6">
+											<li>Metodos y herramientas orientadas a la extensión</li>
+											<li>Herramientas para el trabajo intelectual</li>
+											<li>Metodología general de la investigación</li>
+											<li>Construcción del sujeto y del objeto en Psicología</li>
+											<li>Psicología, Género y Derechos Humanos</li>
+										</div>
+									</ul>
+									<div class="text-center py-3">
+										<a href="source/pdf/cioas.pdf" target="_blank" class="btn btn-primary">Notas</a>
+									</div>
+								</div>
+								<div class="py-4">
+									<h3 class="fs-4">Materias Aprobadas en JAP</h3>
+									<ul class="row fs-5">
+										<div class="col-12 col-md-6">
+											<li>Pensamiento computacional</li>
+											<li>Introducción a la programación</li>
+											<li>Fundamentos de la programación</li>
+											<li>Programación imperativa</li>
+											<li>Programación orientada a objetos</li>
+										</div>
+										<div class="col-12 col-md-6">
+											<li>Integración y encuadre</li>
+											<li>Proyecto ocupacional</li>
+											<li>Organización y planificación</li>
+											<li>Autogestión, Autorregulación, Determinación, Vocación y Autoevaluación</li>
+										</div>
+									</ul>
+									<div class="text-center py-3">
+										<a href="source/pdf/jap.pdf" target="_blank" class="btn btn-primary">Certificado</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 id="headingTwo" class="accordion-header">
+							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="accordion-button collapsed">
+								<p class="mb-0 fs-3">Aptitudes Personales</p>
+							</button>
+						</h2>
+						<div id="collapseTwo" aria-labelledby="headingTwo" class="accordion-collapse collapse">
+							<div class="accordion-body p-3">
+								<ul class="row fs-5">
+									<div class="col-12 col-lg-4">
+										<li>Dedicado</li>
+										<li>Paciente</li>
+										<li>Perseverante</li>
+									</div>
+									<div class="col-12 col-lg-4">
+										<li>Autodidacta</li>
+										<li>Curioso</li>
+										<li>Apasionado</li>
+									</div>
+									<div class="col-12 col-lg-4">
+										<li>Versátil</li>
+										<li>Respetuoso</li>
+										<li>Honesto</li>
+									</div>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 id="headingThree" class="accordion-header">
+							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="accordion-button collapsed">
+								<p class="mb-0 fs-3">Herramientas y Tecnologías</p>
+							</button>
+						</h2>
+						<div id="collapseThree" aria-labelledby="headingThree" class="accordion-collapse collapse">
+							<div class="accordion-body p-3">
+								<ul class="row fs-5">
+									<div class="col-12 col-lg-4">
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>JavaScript</li>
+										<li>Bootstrap</li>
+									</div>
+									<div class="col-12 col-lg-4">
+										<li>React</li>
+										<li>Ionic</li>
+										<li>Github</li>
+										<li>Git</li>
+									</div>
+									<div class="col-12 col-lg-4">
+										<li>Node</li>
+										<li>C#</li>
+										<li>Java</li>
+										<li>SQL</li>
+									</div>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-3 align-self-center slideleft">
+					<img src="source/img/ilustraciones/two.png" width="100%" alt="Dibujo de persona programando" class="float">
+				</div>
+			</div>
+
+		<!-- PROYECTOS PERSONALES -->
+		 <span id="proyectosPersonales"></span>
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideright">
+				<h1 class="display-4 text-center fw-bold">Proyectos personales</h1>
+				<div class="row py-3 justify-content-center text-center">
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/Masterchef.png" alt="Página Masterchef" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página Masterchef</h5>
+									<p class="card-text">Esta página fue un proyecto final para el taller de usabilidad y accesibilidad. En el mismo observamos más a fondo las herramientas HTML, CSS y Bootstrap.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/todoList.png" alt="Página To-Do" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página To-Do</h5>
+									<p class="card-text">Esta página fue un proyecto propio. Se utiliza para tener una lista de tareas que cumplir a futuro. Hecha con HTML, CSS, JS y Bootstrap. <a href="https://todofrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/expenseTracker.png" alt="Página Expense Tracker" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página Expense Tracker</h5>
+									<p class="card-text">Esta página fue un proyecto propio. Se utiliza para tener una lista de gastos hechos. Hecha con HTML, CSS, JS y Bootstrap. <a href="https://expensetrackerfrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/memoryGame.png" alt="Página Memory Game" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página Memory Game</h5>
+									<p class="card-text">Esta página fue un proyecto propio. Hecha para pasar un rato jugando al conocido Memory Game, se utiliza HTML, CSS, JS y Bootstrap. <a href="https://memorygamefrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/calculator.png" alt="Página Calculator" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página Calculator</h5>
+									<p class="card-text">Esta página fue un proyecto propio. Hecha para hacer usada como calculadora, se utiliza HTML, CSS, JS y Bootstrap. <a href="https://calculatorfrioni.netlify.app" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/eyeron.png" alt="Página Eyeron" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Página Eyeron</h5>
+									<p class="card-text">Esta página es un proyecto propio, el cual aún esta en desarrollo. Este juego se esta creando utilizando HTML, CSS, JS, Node, Express y NeDB. <a href="https://eyeron.herokuapp.com" target="_blank" class="lead fs-6 text-muted">Link a la Página</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/buscaminas.png" alt="Aplicación Buscaminas" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Aplicación Buscaminas</h5>
+									<p class="card-text">Proyecto final de la materia Diseño y Desarrollo de Aplicaciones hecho en Java. En dicha materia aprendimos Java y, además, patrones y principios de diseño.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 slideright" style="max-width: 85%;">
+						<div class="row g-0">
+							<div class="col-md-4">
+								<img src="source/img/proyectos/libreria.png" alt="Página Masterchef" class="img-fluid rounded-start">
+							</div>
+							<div class="col-md-8 align-self-center">
+								<div class="card-body">
+									<h5 class="card-title fs-2">Aplicación Librería</h5>
+									<p class="card-text">Para la materia de Dispositivos Móviles realicé un proyecto final en React junto con Ionic, utilizando además JavaScript, HTML y CSS. Este proyecto se llevó a cabo con Android Studio para terminar siendo una aplicación para dispositivos Android.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="text-center fs-4 pt-5 fst-italic slideright">¡Todos los códigos, y los de otros proyectos, se pueden encontrar en los repositorios de GitHub!</p>
+			</div>
+		<!-- CONTACTO -->
+		  <span id="contacto"></span>
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 slideleft">
+				<h1 class="display-4 text-center fw-bold">Contacto</h1>
+				<div class="row justify-content-around py-5">
+					<div class="col-12 col-md-6 my-3 text-center slideleft">
+						<img src="source/img/contacto/phone.png" alt="Icono Telefono" width="10%" class="mx-1">
+						<p class="align-self-center d-inline fs-5">+598 092 989 351</p>
+					</div>
+					<div class="col-12 col-md-6 my-3 text-center slideleft">
+						<img src="source/img/contacto/mail.png" alt="Icono Email" width="10%" class="mx-1">
+						<p class="align-self-center d-inline fs-5">francescofrioni99@gmail.com</p>
+					</div>
+					<div class="col-12 col-md-6 my-3 text-center slideleft">
+						<img src="source/img/contacto/github.png" alt="Icono GitHub" width="10%" class="mx-1">
+						<a class="align-self-center text-muted fs-5" href="https://github.com/FranFrioni" target="_blank">FranFrioni</a>
+					</div>
+					<div class="col-12 col-md-6 my-3 text-center slideleft">
+						<img src="source/img/contacto/linkedin.png" alt="Icono Linkedin" width="10%" class="mx-1">
+						<a class="align-self-center text-muted fs-5" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/" target="_blank">Francesco Frioni</a>
+					</div>
+				</div>
+			</div>
+	</main>
+	<footer class="py-4 text-end">
+		<p class="my-0 mx-3 p-0">Ilustraciones por <a class="text-muted" href="https://storyset.com/web">StorySet</a></p>
+	</footer>
+	<script src="source/bootstrap5/bootstrap.js"></script>
+	<script src="source/script/jquery-3.6.0.min.js"></script>
+	<script src="source/script/observers.js"></script>
 </body>
 </html>
