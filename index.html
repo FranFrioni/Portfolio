@@ -37,25 +37,27 @@
 			</div>
 		</nav>
 	</header>
-	<main class="container">
+	<main>
 
 		<!-- PERFIL -->
-			<div id="perfil" class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideleft">
-				<div class="d-block d-lg-none col-10 mt-3 align-self-center p-0 mb-3 slideleft">
-					<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
-				</div>
-				<div class="col-lg-8 align-self-center p-0 text-center text-lg-start slideleft">
-					<h1 class="display-1 mb-1 fw-bold">Francesco Frioni</h1>
-					<h2 class="display-6 fst-italic">Estudiante avanzado de Analista Programador</h2>
-				</div>
-				<div class="d-none d-lg-block col-xl-3 col-lg-4 align-self-center p-0 slideleft">
-					<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
+			<div id="divPerfil">
+				<div id="perfil" class="row justify-content-center m-0 my-5 px-2 slideleft container mx-auto">
+					<div class="d-block d-lg-none col-10 mt-3 align-self-center p-0 mb-3 slideleft">
+						<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
+					</div>
+					<div class="col-lg-8 align-self-center p-0 text-center text-lg-start slideleft">
+						<h1 class="display-1 mb-1 fw-bold">Francesco Frioni</h1>
+						<h2 class="display-6 fst-italic">Estudiante avanzado de Analista Programador</h2>
+					</div>
+					<div class="d-none d-lg-block col-xl-3 col-lg-4 align-self-center p-0 slideleft">
+						<img src="source/img/index/perfil.png" alt="Foto de Perfil" width="100%" class="rounded-circle shadow-lg float">
+					</div>
 				</div>
 			</div>
 
 		<!-- SOBRE MÍ -->
 			<span id="sobreMí"></span>
-			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideright">
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 slideright container mx-auto">
 				<h1 class="display-4 text-center fw-bold">Un poco sobre mí</h1>
 				<div class="col-12 col-md-3 align-self-center slideright">
 					<img src="source/img/ilustraciones/one.png" width="100%" alt="Dibujo de persona programando" class="float">
@@ -72,170 +74,172 @@
 
 		<!-- CONOCIMIENTOS -->
 			<span id="conocimientos"></span>
-			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideleft">
-				<h1 class="display-4 text-center fw-bold">Conocimientos</h1>
-				<div id="divAccordion" class="accordion col-12 col-md-8 my-5 align-self-center slideleft">
-					<div class="accordion-item">
-						<h2 id="headingOne" class="accordion-header">
-							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="accordion-button collapsed">
-								<p class="mb-0 fs-3">Educación</p>
-							</button>
-						</h2>
-						<div id="collapseOne" aria-labelledby="headingOne" class="accordion-collapse collapse">
-							<div class="accordion-body p-3">
-								<div class="py-4 border-bottom">
-									<h3 class="fs-4">Secundaria, Carreras y Cursos</h3>
-									<ul class="fs-5">
-										<li>Bachillerato Físico Matemático (IPOLL 2016)</li>
-										<li>Ciclo Inicial Optativo del Área Social Orientación Psicología (Udelar 2017)</li>
-										<li>Primera Fase de Jóvenes a Programar (Plan Ceibal 2020)</li>
-										<li>Analista Programador (CTC / CLAEH 2021)</li>
-									</ul>
-								</div>
-								<div class="py-4 border-bottom">
-									<h3 class="fs-4">Materias Aprobadas en AP</h3>
-									<ul class="row fs-5">
-										<div class="col-12 col-md-6">
-											<li>Programación 1</li>
-											<li>Pensamiento computacional</li>
-											<li>Taller de usabilidad y accesibilidad</li>
-											<li>Programación 2</li>
-											<li>Base de datos 1</li>
-											<li>Taller de desarrollo front-end</li>
-											<li>Programación 3</li>
-										</div>
-										<div class="col-12 col-md-6">
-											<li>Base de datos 2</li>
-											<li>Desarrollo para dispositivos móviles</li>
-											<li>Taller de seguridad (Por Aprobar)</li>
-											<li>Diseño y desarrollo de aplicaciones</li>
-											<li>Ingeniería de software</li>
-											<li>Algoritmos y estructuras de datos</li>
-											<li>Taller de GeneXus (Por Aprobar)</li>
-										</div>
-									</ul>
-									<div class="text-center py-3">
-										<a href="source/pdf/ctc.pdf" target="_blank" class="btn btn-primary">Notas</a>
+			<div id="divConocimientos" class="py-5">
+				<div class="row justify-content-center m-0 my-5 px-2 slideleft container mx-auto">
+					<h1 class="display-4 text-center fw-bold">Conocimientos</h1>
+					<div id="divAccordion" class="accordion col-12 col-md-8 my-5 align-self-center slideleft">
+						<div class="accordion-item">
+							<h2 id="headingOne" class="accordion-header">
+								<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="accordion-button collapsed">
+									<p class="mb-0 fs-3">Educación</p>
+								</button>
+							</h2>
+							<div id="collapseOne" aria-labelledby="headingOne" class="accordion-collapse collapse">
+								<div class="accordion-body p-3">
+									<div class="py-4 border-bottom">
+										<h3 class="fs-4">Secundaria, Carreras y Cursos</h3>
+										<ul class="fs-5">
+											<li>Bachillerato Físico Matemático (IPOLL 2016)</li>
+											<li>Ciclo Inicial Optativo del Área Social Orientación Psicología (Udelar 2017)</li>
+											<li>Primera Fase de Jóvenes a Programar (Plan Ceibal 2020)</li>
+											<li>Analista Programador (CTC / CLAEH 2021)</li>
+										</ul>
 									</div>
-								</div>
-								<div class="py-4 border-bottom">
-									<h3 class="fs-4">Materias Aprobadas en CIOAS</h3>
-									<ul class="row fs-5">
-										<div class="col-12 col-md-6">
-											<li>Historia de la Psicología</li>
-											<li>Neurobiología de la mente</li>
-											<li>Psicología del desarrollo</li>
-											<li>Procesos cognitivos</li>
-											<li>Teorías Psicológicas</li>
-											<li>Epistemología</li>
+									<div class="py-4 border-bottom">
+										<h3 class="fs-4">Materias Aprobadas en AP</h3>
+										<ul class="row fs-5">
+											<div class="col-12 col-md-6">
+												<li>Programación 1</li>
+												<li>Pensamiento computacional</li>
+												<li>Taller de usabilidad y accesibilidad</li>
+												<li>Programación 2</li>
+												<li>Base de datos 1</li>
+												<li>Taller de desarrollo front-end</li>
+												<li>Programación 3</li>
+											</div>
+											<div class="col-12 col-md-6">
+												<li>Base de datos 2</li>
+												<li>Desarrollo para dispositivos móviles</li>
+												<li>Taller de seguridad (Por Aprobar)</li>
+												<li>Diseño y desarrollo de aplicaciones</li>
+												<li>Ingeniería de software</li>
+												<li>Algoritmos y estructuras de datos</li>
+												<li>Taller de GeneXus (Por Aprobar)</li>
+											</div>
+										</ul>
+										<div class="text-center py-3">
+											<a href="source/pdf/ctc.pdf" target="_blank" class="btn btn-primary">Notas</a>
 										</div>
-										<div class="col-12 col-md-6">
-											<li>Metodos y herramientas orientadas a la extensión</li>
-											<li>Herramientas para el trabajo intelectual</li>
-											<li>Metodología general de la investigación</li>
-											<li>Construcción del sujeto y del objeto en Psicología</li>
-											<li>Psicología, Género y Derechos Humanos</li>
-										</div>
-									</ul>
-									<div class="text-center py-3">
-										<a href="source/pdf/cioas.pdf" target="_blank" class="btn btn-primary">Notas</a>
 									</div>
-								</div>
-								<div class="py-4">
-									<h3 class="fs-4">Materias Aprobadas en JAP</h3>
-									<ul class="row fs-5">
-										<div class="col-12 col-md-6">
-											<li>Pensamiento computacional</li>
-											<li>Introducción a la programación</li>
-											<li>Fundamentos de la programación</li>
-											<li>Programación imperativa</li>
-											<li>Programación orientada a objetos</li>
+									<div class="py-4 border-bottom">
+										<h3 class="fs-4">Materias Aprobadas en CIOAS</h3>
+										<ul class="row fs-5">
+											<div class="col-12 col-md-6">
+												<li>Historia de la Psicología</li>
+												<li>Neurobiología de la mente</li>
+												<li>Psicología del desarrollo</li>
+												<li>Procesos cognitivos</li>
+												<li>Teorías Psicológicas</li>
+												<li>Epistemología</li>
+											</div>
+											<div class="col-12 col-md-6">
+												<li>Metodos y herramientas orientadas a la extensión</li>
+												<li>Herramientas para el trabajo intelectual</li>
+												<li>Metodología general de la investigación</li>
+												<li>Construcción del sujeto y del objeto en Psicología</li>
+												<li>Psicología, Género y Derechos Humanos</li>
+											</div>
+										</ul>
+										<div class="text-center py-3">
+											<a href="source/pdf/cioas.pdf" target="_blank" class="btn btn-primary">Notas</a>
 										</div>
-										<div class="col-12 col-md-6">
-											<li>Integración y encuadre</li>
-											<li>Proyecto ocupacional</li>
-											<li>Organización y planificación</li>
-											<li>Autogestión, Autorregulación, Determinación, Vocación y Autoevaluación</li>
+									</div>
+									<div class="py-4">
+										<h3 class="fs-4">Materias Aprobadas en JAP</h3>
+										<ul class="row fs-5">
+											<div class="col-12 col-md-6">
+												<li>Pensamiento computacional</li>
+												<li>Introducción a la programación</li>
+												<li>Fundamentos de la programación</li>
+												<li>Programación imperativa</li>
+												<li>Programación orientada a objetos</li>
+											</div>
+											<div class="col-12 col-md-6">
+												<li>Integración y encuadre</li>
+												<li>Proyecto ocupacional</li>
+												<li>Organización y planificación</li>
+												<li>Autogestión, Autorregulación, Determinación, Vocación y Autoevaluación</li>
+											</div>
+										</ul>
+										<div class="text-center py-3">
+											<a href="source/pdf/jap.pdf" target="_blank" class="btn btn-primary">Certificado</a>
 										</div>
-									</ul>
-									<div class="text-center py-3">
-										<a href="source/pdf/jap.pdf" target="_blank" class="btn btn-primary">Certificado</a>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 id="headingTwo" class="accordion-header">
-							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="accordion-button collapsed">
-								<p class="mb-0 fs-3">Aptitudes Personales</p>
-							</button>
-						</h2>
-						<div id="collapseTwo" aria-labelledby="headingTwo" class="accordion-collapse collapse">
-							<div class="accordion-body p-3">
-								<ul class="row fs-5">
-									<div class="col-12 col-lg-4">
-										<li>Dedicado</li>
-										<li>Paciente</li>
-										<li>Perseverante</li>
-									</div>
-									<div class="col-12 col-lg-4">
-										<li>Autodidacta</li>
-										<li>Curioso</li>
-										<li>Apasionado</li>
-									</div>
-									<div class="col-12 col-lg-4">
-										<li>Versátil</li>
-										<li>Respetuoso</li>
-										<li>Honesto</li>
-									</div>
-								</ul>
+						<div class="accordion-item">
+							<h2 id="headingTwo" class="accordion-header">
+								<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="accordion-button collapsed">
+									<p class="mb-0 fs-3">Aptitudes Personales</p>
+								</button>
+							</h2>
+							<div id="collapseTwo" aria-labelledby="headingTwo" class="accordion-collapse collapse">
+								<div class="accordion-body p-3">
+									<ul class="row fs-5">
+										<div class="col-12 col-lg-4">
+											<li>Dedicado</li>
+											<li>Paciente</li>
+											<li>Perseverante</li>
+										</div>
+										<div class="col-12 col-lg-4">
+											<li>Autodidacta</li>
+											<li>Curioso</li>
+											<li>Apasionado</li>
+										</div>
+										<div class="col-12 col-lg-4">
+											<li>Versátil</li>
+											<li>Respetuoso</li>
+											<li>Honesto</li>
+										</div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 id="headingThree" class="accordion-header">
+								<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="accordion-button collapsed">
+									<p class="mb-0 fs-3">Herramientas y Tecnologías</p>
+								</button>
+							</h2>
+							<div id="collapseThree" aria-labelledby="headingThree" class="accordion-collapse collapse">
+								<div class="accordion-body p-3">
+									<ul class="row fs-5">
+										<div class="col-12 col-lg-4">
+											<li>HTML</li>
+											<li>CSS</li>
+											<li>JavaScript</li>
+											<li>Bootstrap</li>
+										</div>
+										<div class="col-12 col-lg-4">
+											<li>React</li>
+											<li>Ionic</li>
+											<li>Github</li>
+											<li>Git</li>
+										</div>
+										<div class="col-12 col-lg-4">
+											<li>Node</li>
+											<li>C#</li>
+											<li>Java</li>
+											<li>SQL</li>
+										</div>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="accordion-item">
-						<h2 id="headingThree" class="accordion-header">
-							<button type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="accordion-button collapsed">
-								<p class="mb-0 fs-3">Herramientas y Tecnologías</p>
-							</button>
-						</h2>
-						<div id="collapseThree" aria-labelledby="headingThree" class="accordion-collapse collapse">
-							<div class="accordion-body p-3">
-								<ul class="row fs-5">
-									<div class="col-12 col-lg-4">
-										<li>HTML</li>
-										<li>CSS</li>
-										<li>JavaScript</li>
-										<li>Bootstrap</li>
-									</div>
-									<div class="col-12 col-lg-4">
-										<li>React</li>
-										<li>Ionic</li>
-										<li>Github</li>
-										<li>Git</li>
-									</div>
-									<div class="col-12 col-lg-4">
-										<li>Node</li>
-										<li>C#</li>
-										<li>Java</li>
-										<li>SQL</li>
-									</div>
-								</ul>
-							</div>
-						</div>
+					<div class="col-12 col-md-3 align-self-center slideleft">
+						<img src="source/img/ilustraciones/two.png" width="100%" alt="Dibujo de persona programando" class="float">
 					</div>
-				</div>
-				<div class="col-12 col-md-3 align-self-center slideleft">
-					<img src="source/img/ilustraciones/two.png" width="100%" alt="Dibujo de persona programando" class="float">
 				</div>
 			</div>
 
 		<!-- PROYECTOS PERSONALES -->
 		 <span id="proyectosPersonales"></span>
-			<div class="row justify-content-center m-0 my-5 px-2 py-5 border-bottom border-5 slideright">
+			<div class="row justify-content-center m-0 my-5 px-2 py-5 slideright container mx-auto">
 				<h1 class="display-4 text-center fw-bold">Proyectos personales</h1>
 				<div class="row py-3 justify-content-center text-center">
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/Masterchef.png" alt="Página Masterchef" class="img-fluid rounded-start">
@@ -248,7 +252,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/todoList.png" alt="Página To-Do" class="img-fluid rounded-start">
@@ -261,7 +265,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/expenseTracker.png" alt="Página Expense Tracker" class="img-fluid rounded-start">
@@ -274,7 +278,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/memoryGame.png" alt="Página Memory Game" class="img-fluid rounded-start">
@@ -287,7 +291,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/calculator.png" alt="Página Calculator" class="img-fluid rounded-start">
@@ -300,7 +304,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/eyeron.png" alt="Página Eyeron" class="img-fluid rounded-start">
@@ -313,7 +317,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card mb-3 py-3 border-bottom border-1 slideright" style="max-width: 85%;">
+					<div class="card mb-3 py-3 slideright" style="max-width: 85%;">
 						<div class="row g-0">
 							<div class="col-md-4">
 								<img src="source/img/proyectos/buscaminas.png" alt="Aplicación Buscaminas" class="img-fluid rounded-start">
@@ -344,24 +348,26 @@
 			</div>
 		<!-- CONTACTO -->
 		  <span id="contacto"></span>
-			<div class="row justify-content-center m-0 my-5 px-2 py-5 slideleft">
-				<h1 class="display-4 text-center fw-bold">Contacto</h1>
-				<div class="row justify-content-around py-5">
-					<div class="col-12 col-md-6 my-3 text-center slideleft">
-						<img src="source/img/contacto/phone.png" alt="Icono Telefono" width="10%" class="mx-1">
-						<p class="align-self-center d-inline fs-5">+598 092 989 351</p>
-					</div>
-					<div class="col-12 col-md-6 my-3 text-center slideleft">
-						<img src="source/img/contacto/mail.png" alt="Icono Email" width="10%" class="mx-1">
-						<p class="align-self-center d-inline fs-5">francescofrioni99@gmail.com</p>
-					</div>
-					<div class="col-12 col-md-6 my-3 text-center slideleft">
-						<img src="source/img/contacto/github.png" alt="Icono GitHub" width="10%" class="mx-1">
-						<a class="align-self-center text-muted fs-5" href="https://github.com/FranFrioni" target="_blank">FranFrioni</a>
-					</div>
-					<div class="col-12 col-md-6 my-3 text-center slideleft">
-						<img src="source/img/contacto/linkedin.png" alt="Icono Linkedin" width="10%" class="mx-1">
-						<a class="align-self-center text-muted fs-5" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/" target="_blank">Francesco Frioni</a>
+			<div id="divContacto" class="py-5">
+				<div class="row justify-content-center m-0 my-5 px-2 slideleft container mx-auto">
+					<h1 class="display-4 text-center fw-bold">Contacto</h1>
+					<div class="row justify-content-around py-5">
+						<div class="col-12 col-md-6 my-3 text-center slideleft">
+							<img src="source/img/contacto/phone.png" alt="Icono Telefono" width="10%" class="mx-1">
+							<p class="align-self-center d-inline fs-5">+598 092 989 351</p>
+						</div>
+						<div class="col-12 col-md-6 my-3 text-center slideleft">
+							<img src="source/img/contacto/mail.png" alt="Icono Email" width="10%" class="mx-1">
+							<p class="align-self-center d-inline fs-5">francescofrioni99@gmail.com</p>
+						</div>
+						<div class="col-12 col-md-6 my-3 text-center slideleft">
+							<img src="source/img/contacto/github.png" alt="Icono GitHub" width="10%" class="mx-1">
+							<a class="align-self-center text-muted fs-5" href="https://github.com/FranFrioni" target="_blank">FranFrioni</a>
+						</div>
+						<div class="col-12 col-md-6 my-3 text-center slideleft">
+							<img src="source/img/contacto/linkedin.png" alt="Icono Linkedin" width="10%" class="mx-1">
+							<a class="align-self-center text-muted fs-5" href="https://www.linkedin.com/in/francesco-frioni-palumbo-4ba84318b/" target="_blank">Francesco Frioni</a>
+						</div>
 					</div>
 				</div>
 			</div>
