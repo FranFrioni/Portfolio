@@ -50,7 +50,7 @@
     height: 80vh;
   }
   .appear{
-    animation: appear 1s ease-in;
+    animation: appear 500ms ease-in;
   }
   .float {
     transform: translatey(0px);
@@ -4581,7 +4581,7 @@ textarea.form-control-lg {
   min-width: 0;
   word-wrap: break-word;
   background-image: url("../img/index/cards.png");
-  background-size: 101%;
+  background-size: 101% 101%;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.8rem;
