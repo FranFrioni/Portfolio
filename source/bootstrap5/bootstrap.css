@@ -4580,10 +4580,11 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(35, 25, 66, 0);
+  background-image: url("../img/index/cards.png");
+  background-size: 101%;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 0.25rem;
+  border-radius: 0.8rem;
 }
 .card > hr {
   margin-right: 0;
@@ -4791,7 +4792,8 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: rgb(35,25,66,0.3);
+  background-image: url("../img/index/cards.png");
+  background-size: 100% 100%;
   border: 1px solid #BE95C4;
 }
 .accordion-item:first-of-type {
